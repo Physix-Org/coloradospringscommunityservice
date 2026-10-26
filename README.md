@@ -7,3 +7,23 @@ You can view community service events on the "Posts" page and view them and thei
 
 ## Contributing
 If anyone wants to contribute they're gladly able to contact the orginizer of this website to help and increase the quality of this product. There are some requirements that need to be met in order to contribute however.
+
+### Local Development
+Most development will be done locally with mock data for security and prevent actual account information from being shared. 
+
+For local development please clone the repo using
+
+```bash
+ git clone https://github.com/Physix-Org/coloradospringscommunityservice.git -b react-tailwind-dev
+```
+Afterwards you want to make sure all dependencies are installed using npm using [NodeJS]("https://nodejs.org"). Using `npm install` will install all needed dependencies for this project.
+
+When that's finished this command to build the project for the HTML, CSS, and JavaScript files that are located in `./dist`.
+```bash
+npm run build
+```
+
+For this you'll need Wrangler installed which you can install via npm or the Rust's package manager Cargo. Once Wrangler is installed run the following command to start a local server for development.
+```bash
+npx wrangler pages dev
+```
