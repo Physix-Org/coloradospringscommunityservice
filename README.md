@@ -14,7 +14,7 @@ Most development will be done locally with mock data for security and prevent ac
 For local development please clone the repo using
 
 ```bash
- git clone https://github.com/Physix-Org/coloradospringscommunityservice.git -b react-tailwind-dev
+ git clone https://github.com/Physix-Org/coloradospringscommunityservice.git -b react-dev
 ```
 Afterwards you want to make sure all dependencies are installed using npm using [NodeJS]("https://nodejs.org"). Using `npm install` will install all needed dependencies for this project.
 
